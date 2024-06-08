@@ -1,3 +1,4 @@
+//jQuery
 $(function () {
   // ローダー終了
   function end_loader() {
