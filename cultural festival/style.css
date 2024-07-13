@@ -15,6 +15,9 @@
     font-weight: bold;
     color: black;
   }
+.wrap{
+    opacity: 0;
+}
 .wrap.on{
     opacity: 1;
     transition: 5s;
