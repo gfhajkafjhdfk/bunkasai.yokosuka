@@ -18,7 +18,12 @@
 .wrap{
     opacity: 0;
 }
+
 .wrap.on{
     opacity: 1;
     transition: 0.9s;
+}
+.yokosuka1{
+     align-items: center;
+    justify-content: center;
 }
