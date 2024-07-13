@@ -24,6 +24,6 @@
     transition: 0.9s;
 }
 .yokosuka1{
-     align-items: center;
-    justify-content: center;
+     text-align: center;
+     font-size: 80px;
 }
