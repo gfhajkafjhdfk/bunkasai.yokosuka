@@ -1,33 +1,39 @@
 .loading {
-     width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-  }
-  .loading .txt {
-    font-size: 45px;
-    font-weight: bold;
-    color: black;
-  }
+  width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: fixed;
+ left: 0;
+ top: 0;
+ right: 0;
+ bottom: 0;
+}
+.loading .txt {
+ font-size: 45px;
+ font-weight: bold;
+ color: black;
+}
 .wrap{
-    opacity: 0;
-     position: relative;
+ opacity: 0;
+  position: relative;
 }
 
 .wrap.on{
-    opacity: 1;
-    transition: 0.9s;
+ opacity: 1;
+ transition: 0.9s;
 }
 .yokosuka1{
-     text-align: center;
-     font-size: 60px;
+  text-align: center;
+  font-size: 60px;
 }
 .yokosuka2{
-     text-align: center;
+  text-align: center;
+}
+.image-one{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
