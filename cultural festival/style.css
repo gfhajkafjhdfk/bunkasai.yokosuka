@@ -1,39 +1,104 @@
+header {
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+nav {
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .loading {
   width: 100%;
- height: 100%;
- display: flex;
- align-items: center;
- justify-content: center;
- position: fixed;
- left: 0;
- top: 0;
- right: 0;
- bottom: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
+
 .loading .txt {
- font-size: 45px;
- font-weight: bold;
- color: black;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-.wrap{
- opacity: 0;
+
+.wrap {
+  opacity: 0;
   position: relative;
 }
 
-.wrap.on{
- opacity: 1;
- transition: 0.9s;
+.wrap.on {
+  opacity: 1;
+  transition: 0.9s;
 }
-.yokosuka1{
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  backdrop-filter: blur(12px);
+  background-color: rgba(0, 149, 255, 0.111);
+}
+
+a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.title {
+  margin-right: auto;
+}
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.yokosuka1 {
   text-align: center;
   font-size: 60px;
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-.yokosuka2{
+
+.yokosuka2 {
   text-align: center;
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-.image-1{
+
+.image-1 {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
+}
+
+.timetable {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
