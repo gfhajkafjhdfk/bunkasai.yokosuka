@@ -4,6 +4,10 @@ header {
   font-weight: 300;
   font-style: normal;
 }
+Copy code
+.ochawan-subtitle {
+white-space: nowrap;
+}
 
 nav {
   font-family: "Yusei Magic", sans-serif;
