@@ -142,11 +142,9 @@ a {
   font-style: normal;
 }
 
-* {
-　margin: 0; padding: 0;
-}
 
-/* フッター */
+
+
 footer {
 　background-color: darkred;
 　color: whitesmoke;
