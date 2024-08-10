@@ -26,7 +26,7 @@ nav {
 }
 
 .loading .txt {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: black;
   text-align: center;
@@ -60,7 +60,7 @@ header {
 
 a {
   color: black;
-  font-size: 12px;
+  font-size: 10px;
   text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ a {
 
 .yokosuka1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -98,7 +98,7 @@ a {
 
 .timetable {
   text-align: center;
-  font-size: 35px;
+  font-size: 20px;
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
