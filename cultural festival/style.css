@@ -103,7 +103,7 @@ a {
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: blue;
+  background-color: #DDFFFF;
 }
 
 .timetable2 {
@@ -112,7 +112,7 @@ a {
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
-   background-color: green;
+   background-color: #00DD00;
 }
 
 .timetable3 {
@@ -121,7 +121,7 @@ a {
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
-   background-color: purple;
+   background-color: #FF00FF;
 }
 
 .timetable4 {
