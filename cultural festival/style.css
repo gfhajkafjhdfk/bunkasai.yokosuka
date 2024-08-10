@@ -5,20 +5,6 @@ header {
   font-style: normal;
 }
 
-@media screen and (max-width: 768px) {
-    p{
-        background-color: black;
-         color:green;
-     }
- }
- 
- @media screen and (max-width: 480px) {
-    p{
-        background-color: black;
-         color:red;
-     }
- }
-
 nav {
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
