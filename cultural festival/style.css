@@ -25,9 +25,7 @@ nav {
   bottom: 0;
 }
 
-p{
-  text-align: center;
-}
+
 
 .loading .txt {
   font-size: 30px;
@@ -66,6 +64,7 @@ a {
   color: black;
   font-size: 10px;
   text-decoration: none;
+  text-align: center;
 }
 
 .title {
