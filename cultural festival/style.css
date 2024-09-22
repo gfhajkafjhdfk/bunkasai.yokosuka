@@ -157,26 +157,41 @@ a {
   background-color: #FF99FF	;
 }
 
-.footer {
-　background-color: #FFD700;
-　color: whitesmoke;
+h3 {
+  color: white;
+  font-size: 20px;
 }
 
-.footer-menu {
-　height: 60px;
+h4 {
+  color: white;
+  font-size: 13px;
 }
 
-.footer-menu-list {
-　list-style: none;
-　text-align: center;
-　line-height: 60px;
+.foot-wrap .menu-left,
+.menu-center,
+.menu-right {
+  display: inline-block;
+  width: 20%;
+  margin: 50px auto;
 }
 
-.footer-menu-list li {
-　margin: 10px;
-　display: inline;
+.foot-wrap ul {
+  list-style: none;
+  padding: 0;
+  line-height: 40px;
 }
 
-.copyright {
-　text-align: center;
+.foot-wrap {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.foot-wrap .cmark {
+  display: block;
+  padding: 10px;
+  border-top: 1px solid gray;
+  width: 80%;
+  margin: 0 auto;
+  color: gray;
 }
