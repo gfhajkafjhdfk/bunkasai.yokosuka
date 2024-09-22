@@ -25,6 +25,10 @@ nav {
   bottom: 0;
 }
 
+p{
+  text-align: center;
+}
+
 .loading .txt {
   font-size: 30px;
   font-weight: bold;
