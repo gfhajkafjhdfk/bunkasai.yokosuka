@@ -5,7 +5,6 @@ header {
   font-style: normal;
 }
 
-
 nav {
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
@@ -25,8 +24,8 @@ nav {
   bottom: 0;
 }
 
-Body{
-  text-align; center:
+Body {
+  text-align: center;
 }
 
 .loading .txt {
@@ -63,10 +62,17 @@ header {
 }
 
 a {
-  color: blue;
   font-size: 15px;
   text-decoration: none;
   text-align: center;
+}
+
+a:link {
+  color: #000;
+}
+
+a:hover {
+  color: rgb(255, 89, 0);
 }
 
 .title {
@@ -81,7 +87,7 @@ a {
 
 .yokosuka1 {
   text-align: center;
-  font-size:   30px;
+  font-size: 30px;
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -127,7 +133,7 @@ a {
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
-   background-color: #00DD00;
+  background-color: #00DD00;
 }
 
 .timetable3 {
@@ -136,7 +142,7 @@ a {
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
-   background-color: #FF00FF;
+  background-color: #FF00FF;
 }
 
 .timetable4 {
@@ -145,7 +151,7 @@ a {
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color:#DCDCDC;
+  background-color: #DCDCDC;
 }
 
 .timetable5 {
@@ -154,25 +160,17 @@ a {
   font-family: "Yusei Magic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #FF99FF	;
-}
-
-h3 {
-  color: white;
-  font-size: 20px;
-}
-
-h4 {
-  color: white;
-  font-size: 13px;
+  background-color: #FF99FF;
 }
 
 .foot-wrap .menu-left,
 .menu-center,
 .menu-right {
   display: inline-block;
+  vertical-align: top;
   width: 20%;
   margin: 50px auto;
+  ;
 }
 
 .foot-wrap ul {
@@ -182,8 +180,8 @@ h4 {
 }
 
 .foot-wrap {
-  background-color: #333;
-  color: #fff;
+  background-color: rgb(227, 250, 255);
+  color: #000;
   text-align: center;
 }
 
@@ -194,4 +192,20 @@ h4 {
   width: 80%;
   margin: 0 auto;
   color: gray;
+}
+
+.access {
+  background-color: coral;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 20px;
+}
+
+.access-item {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 18px;
+  text-align: left
 }
