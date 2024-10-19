@@ -196,7 +196,6 @@ a:hover {
 
 .access {
   background-color: coral;
-  font-family: "Yusei Magic", sans-serif;
   font-size: 20px;
 }
 
@@ -205,7 +204,6 @@ a:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  font-family: "Yusei Magic", sans-serif;
   font-size: 18px;
   text-align: left
 }
